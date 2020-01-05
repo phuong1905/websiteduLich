@@ -1,0 +1,2 @@
+C:\Users\User\Desktop\WEb_GT\WEb_GT\obj\Debug\WEb_GT.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\WEb_GT\WEb_GT\obj\Debug\WEb_GT.csprojResolveAssemblyReference.cache

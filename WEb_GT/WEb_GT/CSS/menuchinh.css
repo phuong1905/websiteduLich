@@ -1,0 +1,131 @@
+﻿body {
+}
+#kmenu
+{
+    height: 80px;
+    background: url(http://thethao.zing.vn/news/images/menu-bg.gif) repeat-x;
+}
+#kmenu .kmenu-r
+{
+    height: 80px;
+    background: url(http://thethao.zing.vn/news/images/menu-right-bg.gif) no-repeat top right;
+}
+#kmenu .kmenu-l
+{
+    height: 80px;
+    background: url(http://thethao.zing.vn/news/images/menu-left-bg.gif) no-repeat top left;
+}
+#kmenu .homepage
+{
+    padding: 20px 0px 0px 8px;
+    width: 78px;
+    float: left;
+}
+#kmenu .homepage a
+{
+    font-weight: bold;
+}
+#kmenu .homepage a:hover
+{
+    color: #f68121;
+    text-decoration: none;
+}
+#kmenu .mnav
+{
+    width: 854px;
+    float: left;
+    padding: 17px 0 0 20px;
+}
+#kmenu .mnav ul.zlstmnav
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    height: 28px;
+}
+#kmenu .mnav .zlstmnav li
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+#kmenu .mnav .zlstmnav li a
+{
+    float: left;
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 0 0 0px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    cursor: pointer;
+    font-family: Arial;
+}
+#kmenu .mnav .zlstmnav li a span
+{
+    float: left;
+    display: block;
+    padding: 0 0px 0 20px;
+}
+#kmenu .mnav .zlstmnav li a:hover, #kmenu .mnav .zlstmnav li.selected a
+{
+    margin-top: 1px;
+    height: 26px;
+    line-height: 26px;
+    background: #2e2e2e url(http://thethao.zing.vn/news/images/nav-left-bg.gif) no-repeat top left;
+}
+#kmenu .mnav .zlstmnav li.first a:hover
+{
+    background: #2e2e2e url(http://thethao.zing.vn/news/images/nav-left-home.gif) no-repeat top left;
+}
+#kmenu .mnav .zlstmnav li a:hover span, #kmenu .mnav .zlstmnav li.selected a span
+{
+    background: url(http://thethao.zing.vn/news/images/nav-right-bg.gif) no-repeat top right;
+    padding: 0 20px 0 20px;
+}
+#kmenu .submenu
+{
+    padding-left: 10px;
+}
+#kmenu .submenu li
+{
+    float: left;
+}
+#kmenu .submenu li a
+{
+    color: #fff;
+    display: block;
+    padding-right: 15px;
+}
+
+.translate{
+    display:inline;
+    float:right;
+    margin: 0px 20px 10px 0;
+}
+
+.left_menu
+{
+	border-style: none none inset none;
+	font-weight: bold;
+	font-size: 13px;
+	background-color: #FFCCFF;
+	float: left;
+	clear: both;
+	width: 170px;
+	height: 20px;
+	padding-left: 10px;
+	margin-top: 0px;
+	text-decoration: none;
+}
+.left_menu:hover
+{
+    color: #FFFFFF;
+    font-style: italic;
+    background-color: #008484;
+    text-decoration: blink;
+}

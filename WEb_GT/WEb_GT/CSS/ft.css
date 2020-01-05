@@ -1,0 +1,13 @@
+﻿body {
+    footer {
+    background-color: #79B33F;
+    height: 100px;
+    padding-top: 10px;
+}
+
+footer>p {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 5px;
+}
+}

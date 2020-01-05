@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Quanly.master.cs" Inherits="admin_Quanly" %>
+<link href="../CSS/cssanh.css" rel="stylesheet" />
+<link href="../CSS/menuchinh.css" rel="stylesheet" />
+
+<link href="../CSS/StyleSheet.css" rel="stylesheet" />
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            height: 155px;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="../StyleSheet.css" />
+</head>
+<body>
+    <form id="form1" runat="server" method="post">
+    <div style="margin: 0px auto; width: 1000px">
+        <div style="border: 1px solid #C0C0C0; height: 120px; width: 996px; background: url(../image/banner_admin.jpg)">
+        </div>
+        <%--mnutop--%>
+        <div style="background-color: blue; border: 1px solid #C0C0C0; height: 30px;">
+            <div class="menutop" style="height:30px">
+                <div style="float: left; width: 1000px">
+                     <ul>
+                        <li><a href="Admin.aspx">Trang chủ</a></li>
+                        <li><a href="Phanquyen.aspx">Phân quyền</a></li>
+                        <li><a href="Default.aspx">Thêm thông tin</a></li>
+                        <li><a href="ThemDMThongTin.aspx">Danh mục thông tin</a></li>
+                        <li><a href="Themtintuc.aspx">Thêm tin tức</a></li>
+                        <li><a href="Dangky.aspx">Đăng kí</a></li>
+                        <li><a href="Dangnhap.aspx">Đăng nhập</a></li>
+                        <li><a href="thugopy.aspx">Góp ý</a></li>
+                     </ul>
+               </div>
+        </div>
+        <table>
+        <tr>
+           <td class="style1">
+               &nbsp;</td>
+           <td class="style1">
+             <div style="height: 100%px; width: 881px; margin-bottom: 0px;" align="center">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            </div>
+       
+           </td>
+        </tr>    
+      </table>
+      </div>
+    </form>
+</body>
+</html>
